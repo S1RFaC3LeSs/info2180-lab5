@@ -1,1 +1,51 @@
-/* Add your own styles */
+header
+{
+    display: flex;
+    background-color:rgb(74, 71, 71);
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+
+header img
+{
+    height: 125px;
+    width: 125px;
+}
+
+main
+{
+    text-align: center;
+}
+
+main button
+{
+    background-color: rgb(0, 255, 64);
+    border-radius: 5px;
+}
+
+button
+{
+    width: 90px;
+    height: 45px;
+}
+
+table
+{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th
+{
+    border: 1px solid #dddddd79;
+    padding: 8px;  
+}
+
+tr :nth-child(even)
+{
+    background-color: rgb(250, 255, 196);
+}
